@@ -1,0 +1,112 @@
+@import './Global/veriable';
+
+.StoriesWrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.StoryLeft{
+ 
+
+}
+.ImgTopText{
+    // font-family: Gilroy;
+margin-bottom: -100px;
+font-size: 28px;
+font-weight: 800;
+
+
+
+
+
+}
+.CardStoryTitle{
+    // font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+
+    color: $color_green;
+}
+.CardStoryText{
+    // font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+
+}
+.CardStorySubtitle{
+    // font-family: Gilroy;
+font-size: 13px;
+font-weight: 800;
+color: $color_green;
+
+
+}
+.ImgWrapper{
+   margin-left: -50px;
+    height: 570px;
+    filter: drop-shadow(21px 21px 70px rgba(0, 0, 0, 0.2));
+width: 460px;
+background-image: url(../assets/Images/User.png);
+
+}
+.StoriesImgCard{
+    padding:25px;
+ top:260px;
+ box-shadow: 14px 14px 40px rgba(0, 0, 0, 0.1);
+border-radius: 0px;
+    
+    height: 315px;
+    width: 276px; 
+   
+    margin-left:-20px;
+}
+.BlogSoriesBtn{
+    margin-left: 330px;
+   margin-top: 170px;
+   position: absolute;
+    background: $color_green;
+box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+border-radius: 49px;
+// font-family: Gilroy;
+font-size: 15px;
+font-weight: 400;
+width: 150px;
+padding: 15px;
+border: none;
+
+
+}
+.StoriesTitle{
+    // font-family: Gilroy;
+font-size: 43px;
+font-weight: 800;
+
+
+}
+.StoryRight{
+}
+.StoryTitle{
+    // font-family: Gilroy;
+font-size: 20px;
+font-weight: 800;
+color: $color_green;
+}
+.StoryText{
+    // font-family: Gilroy;
+font-size: 15px;
+font-weight: 400;
+width: 300px;
+
+}
+.StoryLink{
+    // font-family: Gilroy;
+font-size: 14px;
+font-weight: 400;
+color: $color_green;
+
+}
+.accordion{
+    width: 500px;
+}
+.accordionBody{
+    margin-top: -35px;
+}

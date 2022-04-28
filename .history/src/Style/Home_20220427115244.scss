@@ -1,0 +1,64 @@
+@import './Global/veriable';
+@import './Global/mixin.scss';
+// .bg{
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;  
+//     position: absolute;
+
+// background: url(../assets/Images/HomeImg.png) ;
+// background-repeat: no-repeat;
+// background-size: contain;
+// }
+.Title{
+    // font-family: Gilroy;
+   
+letter-spacing: 0em;
+
+}
+.HomeData{
+ outline: auto;
+}
+.description{
+    // font-family: Poppins;
+color: $color_FF ;
+
+
+}
+.homeBtn{
+    padding: 15px 30px;
+    border-radius: 28px;
+    background-color: $color_homeBtn;
+    color: $color_white;
+}
+.rightCol{
+     position: absolute;
+    
+     right: 0;
+     top: 21vh;
+    
+    
+}
+.HomeImg{
+    position: absolute;
+    right: 0;
+}
+.Play{
+    position: absolute;
+    top: 85px;
+    border: 1px solid $color_green;
+ right: 190px;
+ width: 288px;
+ height: 288px;
+ transform: rotate(45deg);
+}
+.Cricle{
+    width: 179px;
+    height: 179px;
+    border-radius: 50%;
+    background-color:$color_Cricle;
+    opacity: 0.5;
+    
+}
+

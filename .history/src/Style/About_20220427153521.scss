@@ -1,0 +1,20 @@
+@import './Global/veriable';
+
+.BtnWrapper{
+    mar
+    display: flex;
+    align-items: center;
+    
+}
+.AboutBtn{
+    padding: 15px 30px;
+    border-radius: 28px;
+    text-transform: uppercase;
+    color: $color_green;
+    border: 2px solid $color_green;
+    background-color: $color_white;
+}
+.Link{
+    margin-left: 15px;
+    text-decoration: none;
+}

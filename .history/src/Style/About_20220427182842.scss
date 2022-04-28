@@ -1,0 +1,74 @@
+@import './Global/veriable';
+
+
+.BtnWrapper{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.AboutBtn{
+    padding: 15px 30px;
+    border-radius: 28px;
+    text-transform: uppercase;
+    color: $color_green;
+    border: 2px solid $color_green;
+    background-color: $color_white;
+}
+.Link{
+    color: $color_green;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.AboutImg{
+    
+    right: 450px;
+    position: relative;
+
+}
+.Tractor{
+    position: absolute;
+margin-top:300px;
+z-index: 3;
+height: 292px;
+width: 293px;
+
+
+}
+.AboutImg1{
+    z-index: 1;
+    position: absolute;
+    margin-top: 110px;
+}
+.AboutImg2{
+    z-index: 0;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+.Bulut{
+    z-index: 4;
+     position:absolute ;
+    margin-top: -150px;
+    margin-left:350px;
+}
+.TreeImg{
+    position: absolute;
+      top: 500px;
+      z-index: 0;
+    
+    }
+.AboutBottomImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+ color: $color_green;
+    margin-top: 300px;
+    height: 140px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    background-image: url(../assets/Images/AboutBottom.png);
+}

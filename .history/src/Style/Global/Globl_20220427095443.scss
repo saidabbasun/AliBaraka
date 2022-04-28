@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+@import './Veriable.scss';
+@import '../Header.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    font-family:cursive;
+    font-size: 18px;
+    font-weight: 600;
+   
+ 
+}
+.container{
+  width: 65vw;
+}

@@ -1,0 +1,38 @@
+@import './Global/veriable';
+// .bg{
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;  
+//     position: absolute;
+
+// background: url(../assets/Images/HomeImg.png) ;
+// background-repeat: no-repeat;
+// background-size: contain;
+// }
+.Title{
+    // font-family: Gilroy;
+   
+letter-spacing: 0em;
+
+}
+.HomeData{
+ outline: auto;
+}
+.description{
+    // font-family: Poppins;
+color: $color_FF ;
+
+
+}
+.homeBtn{
+    padding: 15px 30px;
+    border-radius: 28px;
+    background-color: $color_homeBtn;
+    color: $color_white;
+}
+.rightCol{
+     position: absolute;
+   
+}
+

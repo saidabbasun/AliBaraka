@@ -1,0 +1,22 @@
+@import './Global/veriable';
+
+.BlogWrapper{
+    display: flex;
+    margin-top: 30px;
+}
+.Flag{
+   
+   max-width: 700px;
+    margin-left: -300px;
+}
+
+.BlogTitle{
+    // font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 800;
+    
+    letter-spacing: 1px;
+    color:$color_green ;
+    text-transform: uppercase;
+    
+}

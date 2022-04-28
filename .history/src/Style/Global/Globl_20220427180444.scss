@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+@import './veriable.scss';
+@import './mixin.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    font-family:cursive;
+    font-size: 18px;
+    font-weight: 600;
+    color: $color-black;
+    letter-spacing: 0em;
+    
+    
+}
+.TreeImg{
+position: absolute;
+  top: 500px;
+  z-index: 0;
+
+}
+.fluid{
+  margin: 0;
+    padding: 0;
+    width: 100%;
+  overflow: hidden;
+}
+.container{
+  width: 65vw;
+  
+}

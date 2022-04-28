@@ -1,0 +1,62 @@
+@import './Global/veriable';
+
+.ImgTopText{
+    // font-family: Gilroy;
+font-size: 28px;
+font-weight: 800;
+
+
+
+
+}
+.CardStoryTitle{
+    // font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+
+
+    color: $color_green;
+}
+.CardStoryText{
+    // font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+
+}
+.CardStorySubtitle{
+    // font-family: Gilroy;
+font-size: 13px;
+font-weight: 800;
+color: $color_green;
+
+
+}
+.ImgWrapper{
+    height: 570px;
+width: 460px;
+background-image: url(../assets/Images/User.png);
+
+}
+.StoriesImgCard{
+    padding:25px;
+ top:260px;
+ box-shadow: 14px 14px 40px rgba(0, 0, 0, 0.1);
+border-radius: 0px;
+    
+    height: 315px;
+    width: 276px; 
+   
+    margin-left:-20px;
+}
+.BlogSoriesBtn{
+    margin-left: 300px;
+    background: $color_green;
+box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+border-radius: 49px;
+// font-family: Gilroy;
+font-size: 15px;
+font-weight: 400;
+padding: 20px;
+
+
+}

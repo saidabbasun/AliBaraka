@@ -1,0 +1,24 @@
+@import './Global/veriable';
+
+.ImgTopText{
+    // font-family: Gilroy;
+font-size: 28px;
+font-weight: 800;
+
+
+
+}
+.ImgWrapper{
+    height: 570px;
+width: 460px;
+background-image: url(../assets/Images/User.png);
+//  position: relative;
+}
+.StoriesImgCard{
+ bottom: 100px;
+    // position: absolute;
+    height: 336px;
+    width: 276px; 
+   
+    margin-left:-20px;
+}
