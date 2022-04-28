@@ -1,0 +1,31 @@
+@import './Global/veriable';
+@import './Global/mixin.scss';
+
+.textGreen{
+   
+    color:$color_green;
+}
+.phone{
+  width: 50px;
+  height: 50px;
+  @include flex;
+  border:  2px solid $color_green;
+  border-radius: 50%;
+   img{
+     width: 30px;
+   }
+
+}
+
+.HeaderTop{
+ 
+  width: 100%;
+  position:fixed;
+  top: 0;
+  z-index: 999;
+ 
+}
+.HeaderBg{
+  background-color: $color_white;
+  box-shadow: 0px 15px 10px -15px #11100;   
+}

@@ -1,0 +1,13 @@
+@import './Global/veriable';
+.WrapFooter{
+    display: f;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    background-color: $color_green;
+}
+.TextData{
+    // font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+
+}

@@ -1,0 +1,58 @@
+@import './Global/veriable';
+
+.ProductCard{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    border: 0.8325px solid #D9DCEC;;
+border-radius: 8.325px;
+cursor: pointer;
+}
+
+.TitleWrapper{
+    margin-top: 200px;
+  
+}
+.CardWrapper{
+    display: grid;
+    grid-gap: 1.5vw;
+    gap: 1rem;
+  
+    grid-template-columns: 1fr 1fr;
+}
+.CardTitle{
+   
+    // font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 800;
+  text-transform: uppercase;
+    
+    
+}
+.CardText{
+    // font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+
+
+}
+.ProductsTitle{
+    // font-family: Gilroy;
+font-size: 46px;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+.ProductsDescription{
+    // font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+}
+ul{
+
+    li{
+        list-style: none;
+        padding-left: ;
+    }
+}

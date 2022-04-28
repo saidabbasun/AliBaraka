@@ -1,0 +1,34 @@
+@import './Global/veriable';
+.WrapFooter{
+    display: grid;
+   align-items: center;
+   
+    grid-template-columns: 1fr 1fr;
+    background-color: $color_green;
+}
+.TextData{
+    // font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+
+}
+.PageLink{
+    display: grid;
+    grid-gap: 40px;
+   
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ul{
+
+    li{
+        columns: ;
+        list-style: none;
+        margin-left: -25px;
+        font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+
+
+    }
+}

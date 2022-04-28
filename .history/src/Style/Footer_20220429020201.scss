@@ -1,0 +1,51 @@
+@import './Global/veriable';
+.FooterFluid{
+    background-color: $color_green;
+}
+.WrapFooter{
+    margin-top: 165px;
+    padding: 90px;
+    display: grid;
+   align-items: center;
+   
+    grid-template-columns: 1fr 1fr;
+    
+}
+.TextData{
+    // font-family: Poppins;
+    margin-top: 35px;
+font-size: 15px;
+font-weight: 400;
+color: $color_white;    
+
+}
+.PageLink{
+    display: grid;
+    grid-gap: 40px;
+   
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    h4{
+        // font-family: Poppins;
+        color: $color_white;
+font-size: 18px;
+font-weight: 400;
+
+
+    }
+}
+ul{
+    margin-top: 40px;
+
+    li{
+        color:  #60B45A;
+        padding-top: 7px;
+        list-style: none;
+        margin-left: -25px;
+        font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+
+
+    }
+}
