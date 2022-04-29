@@ -28,8 +28,8 @@ export default function Blog() {
            
             </div>
             <Accordion className='accordion'>
-              {items.map((data,ind)=>(
-                <Accordion.Item key={ind}>
+              {i  tems.map((data,ind)=>(
+                <Accordion.Item eventKey={ind}>
     <Accordion.Header ><p>{data.question}</p></Accordion.Header>
    
     <Accordion.Body>

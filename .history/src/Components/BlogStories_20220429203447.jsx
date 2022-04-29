@@ -36,7 +36,7 @@ export default function BlogStories() {
           <button className="BlogSoriesBtn"> more stories </button>
         </div>
       </div>
-      <div className="StoryRight  col-6">
+      <div className="StoryRight col-6">
         <h2 className="StoriesTitle mt-5">Other successful stories</h2>
         {ListStory.map((data, ind) => (
             <div  key={ind}>

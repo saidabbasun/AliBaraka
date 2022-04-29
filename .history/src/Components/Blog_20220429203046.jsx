@@ -29,7 +29,7 @@ export default function Blog() {
             </div>
             <Accordion className='accordion'>
               {items.map((data,ind)=>(
-                <Accordion.Item key={ind}>
+                <Accordion.Item kry>
     <Accordion.Header ><p>{data.question}</p></Accordion.Header>
    
     <Accordion.Body>

@@ -7,7 +7,7 @@ export default function Blog() {
   
   const [items, setItems] = useState([]);
   useEffect(() => {
-  fetch("https://alibaraka.pythonanywhere.com/api/questions/")
+  fetch("https://alibaraka.pythonanywhere.com/api/questions./")
   .then(res => res.json())
   .then((result) => {
     setItems(result);
@@ -29,7 +29,7 @@ export default function Blog() {
             </div>
             <Accordion className='accordion'>
               {items.map((data,ind)=>(
-                <Accordion.Item key={ind}>
+                <Accordion.Item eventKey={ind}>
     <Accordion.Header ><p>{data.question}</p></Accordion.Header>
    
     <Accordion.Body>

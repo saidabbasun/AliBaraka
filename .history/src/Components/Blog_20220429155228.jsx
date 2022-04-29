@@ -28,16 +28,16 @@ export default function Blog() {
            
             </div>
             <Accordion className='accordion'>
-              {items.map((data,ind)=>(
-                <Accordion.Item key={ind}>
-    <Accordion.Header ><p>{data.question}</p></Accordion.Header>
+              {setItems.map((dat))}
+  <Accordion.Item eventKey="0">
+    <Accordion.Header ><p>Do you provide customer support?</p></Accordion.Header>
    
     <Accordion.Body>
-    {data.answer}
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore 
+     
     </Accordion.Body>
   </Accordion.Item>
-              ))}
-  
 
  
 </Accordion>

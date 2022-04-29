@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../Style/Blog.scss'
 import { Card, Accordion } from "react-bootstrap";
 import Flag from '../assets/Images/Flag.png'
@@ -28,16 +28,15 @@ export default function Blog() {
            
             </div>
             <Accordion className='accordion'>
-              {items.map((data,ind)=>(
-                <Accordion.Item key={ind}>
-    <Accordion.Header ><p>{data.question}</p></Accordion.Header>
+  <Accordion.Item eventKey="0">
+    <Accordion.Header ><p>Do you provide customer support?</p></Accordion.Header>
    
     <Accordion.Body>
-    {data.answer}
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore 
+     
     </Accordion.Body>
   </Accordion.Item>
-              ))}
-  
 
  
 </Accordion>

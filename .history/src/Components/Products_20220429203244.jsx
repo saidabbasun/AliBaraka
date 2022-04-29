@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../Style/Products.scss";
-// import Product1 from '../assets/Images/Product1.png';
-// import Product2 from '../assets/Images/Product2.png';
-// import Product3 from '../assets/Images/Product3.png';
-// import Product4 from '../assets/Images/Product4.png';
-// import Product5 from '../assets/Images/Product5.png';
-// import Product6 from '../assets/Images/Product6.png';
+import Product1 from '../assets/Images/Product1.png';
+import Product2 from '../assets/Images/Product2.png';
+import Product3 from '../assets/Images/Product3.png';
+import Product4 from '../assets/Images/Product4.png';
+import Product5 from '../assets/Images/Product5.png';
+import Product6 from '../assets/Images/Product6.png';
 import { Card } from "react-bootstrap";
 
 export default function Praducts() {

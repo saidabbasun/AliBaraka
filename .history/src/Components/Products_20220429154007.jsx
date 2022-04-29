@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from "react";
 import "../Style/Products.scss";
-// import Product1 from '../assets/Images/Product1.png';
-// import Product2 from '../assets/Images/Product2.png';
-// import Product3 from '../assets/Images/Product3.png';
-// import Product4 from '../assets/Images/Product4.png';
-// import Product5 from '../assets/Images/Product5.png';
-// import Product6 from '../assets/Images/Product6.png';
+import Product1 from '../assets/Images/Product1.png';
+import Product2 from '../assets/Images/Product2.png';
+import Product3 from '../assets/Images/Product3.png';
+import Product4 from '../assets/Images/Product4.png';
+import Product5 from '../assets/Images/Product5.png';
+import Product6 from '../assets/Images/Product6.png';
 import { Card } from "react-bootstrap";
 
 export default function Praducts() {
-  // const ListCard=[
-  //   {id:1, CardImg:Product1, CardTitle:'Asosiy Plyonka Turlari', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
-  //   {id:1, CardImg:Product2, CardTitle:'Asosiy Zajim turlari', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
-  //   {id:1, CardImg:Product3, CardTitle:'Tomchilab sug’orish tizimi', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
-  //   {id:1, CardImg:Product4, CardTitle:'ISSIQXONANING sovutish TIZIMI', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
-  //   {id:1, CardImg:Product5, CardTitle:'ISSIQXONANING ISITISH TIZIMI', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
-  //   {id:1, CardImg:Product6, CardTitle:'QO’shimcha aksessuarlar', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
-  // ]
+  const ListCard=[
+    {id:1, CardImg:Product1, CardTitle:'Asosiy Plyonka Turlari', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
+    {id:1, CardImg:Product2, CardTitle:'Asosiy Zajim turlari', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
+    {id:1, CardImg:Product3, CardTitle:'Tomchilab sug’orish tizimi', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
+    {id:1, CardImg:Product4, CardTitle:'ISSIQXONANING sovutish TIZIMI', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
+    {id:1, CardImg:Product5, CardTitle:'ISSIQXONANING ISITISH TIZIMI', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
+    {id:1, CardImg:Product6, CardTitle:'QO’shimcha aksessuarlar', CardText:'Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint.'},
+  ]
   const [items, setItems] = useState([]);
   useEffect(() => {
   fetch("https://alibaraka.pythonanywhere.com/api/products/?format=json")
@@ -44,7 +44,7 @@ export default function Praducts() {
         <Card.Body >
           <p className="CardTitle">{data.name}</p>
           <p className="CardText">
-           {data.text}
+           {data.CardText}
           </p>
           
         </Card.Body>

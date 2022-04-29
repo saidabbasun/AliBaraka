@@ -8,11 +8,9 @@ export default function BlogStories() {
     { id: 1, Title: "Beginner" },
     { id: 1, Title: "Professional" },
   ];
-
-
   return (
-    <div className="StoriesWrapper mt-5 row">
-      <div className="StoryLeft col-5 ">
+    <div className="StoriesWrapper  row">
+      <div className="StoryLeft col-5   ">
         <p className="ImgTopText  ">
           How our client made <br /> 10x revenue
         </p>
@@ -36,7 +34,7 @@ export default function BlogStories() {
           <button className="BlogSoriesBtn"> more stories </button>
         </div>
       </div>
-      <div className="StoryRight  col-6">
+      <div className="StoryRight col-6">
         <h2 className="StoriesTitle mt-5">Other successful stories</h2>
         {ListStory.map((data, ind) => (
             <div  key={ind}>

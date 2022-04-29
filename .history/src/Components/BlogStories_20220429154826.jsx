@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Style/BlogStories.scss";
 
 import { Card,Accordion } from "react-bootstrap";
@@ -9,10 +9,18 @@ export default function BlogStories() {
     { id: 1, Title: "Professional" },
   ];
 
+  const [items, setItems] = useState([]);
+  useEffect(() => {
+  fetch("https://alibaraka.pythonanywhere.com/api/questions/")
+  .then(res => res.json())
+  .then((result) => {
+    setItems(result);
+  });
+}, []);
 
   return (
-    <div className="StoriesWrapper mt-5 row">
-      <div className="StoryLeft col-5 ">
+    <div className="StoriesWrapper  row">
+      <div className="StoryLeft col-5   ">
         <p className="ImgTopText  ">
           How our client made <br /> 10x revenue
         </p>
@@ -36,16 +44,16 @@ export default function BlogStories() {
           <button className="BlogSoriesBtn"> more stories </button>
         </div>
       </div>
-      <div className="StoryRight  col-6">
+      <div className="StoryRight col-6">
         <h2 className="StoriesTitle mt-5">Other successful stories</h2>
-        {ListStory.map((data, ind) => (
+        {setItems.map((data, ind) => (
             <div  key={ind}>
             
             <Card className="border-0 ">
             <hr/>
               <Card.Body  className="pt-0 pb-0 p-3">
                   
-                <Card.Title className=" StoryTitle">{data.Title}</Card.Title>
+                <Card.Title className=" StoryTitle">{data.question}</Card.Title>
 
                 <Card.Text className="StoryText ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

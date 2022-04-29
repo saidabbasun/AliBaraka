@@ -11,7 +11,7 @@ export default function BlogStories() {
 
 
   return (
-    <div className="StoriesWrapper mt-5 row">
+    <div className="StoriesWrapper mt-5row">
       <div className="StoryLeft col-5 ">
         <p className="ImgTopText  ">
           How our client made <br /> 10x revenue
@@ -36,7 +36,7 @@ export default function BlogStories() {
           <button className="BlogSoriesBtn"> more stories </button>
         </div>
       </div>
-      <div className="StoryRight  col-6">
+      <div className="StoryRight col-6">
         <h2 className="StoriesTitle mt-5">Other successful stories</h2>
         {ListStory.map((data, ind) => (
             <div  key={ind}>
