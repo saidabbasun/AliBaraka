@@ -26,7 +26,7 @@ export default function Header() {
     <div className={`HeaderTop ${
       small ? "HeaderBg" : ""
     }`}>
-    <Navbar   className="HeaderNavbar " >
+    <Navbar   className="HeaderNavbar flu" >
   <Container>
     <Navbar.Brand href="#home">
     <img src={Logo} alt="Logo" />
