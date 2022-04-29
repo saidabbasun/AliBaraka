@@ -29,7 +29,7 @@ export default function Home() {
               advantages of our offers. Here will be brief information about our
               company.
             </Card.Text>
-            <a href="/"
+            <a href="#"     rel="noopener noreferrer"
  >
             <button className="homeBtn"> EXPLORE &#xFFEB; </button>
             </a>

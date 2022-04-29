@@ -31,7 +31,7 @@ export default function Praducts() {
             <div className="CardWrapper">
              { ListCard.map((data, ind)=>(
         <div  key={ind} className="ProductCard">
-        <img className="CardImg"  src={data.CardImg} alt='Img'/>
+        <img className="CardImg"  src={data.CardImg} alt/>
         <Card.Body >
           <p className="CardTitle">{data.CardTitle}</p>
           <p className="CardText">

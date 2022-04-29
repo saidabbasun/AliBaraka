@@ -23,7 +23,7 @@ export default function About() {
                 you do."
               </p>
               <div className="BtnWrapper">
-                <a href="/">
+                <a href="#">
                 <button className="AboutBtn"> More About </button>
                 </a>
                 <a href="/" className="Link">
