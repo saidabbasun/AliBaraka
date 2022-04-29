@@ -52,8 +52,8 @@ export default function Contact() {
    </div>
    
   </Card.Body>
-  <a href="/" className='mx-auto mb-4' >
-      <button className='SendBtn '>
+  <a href="/" className='SendBtn ' >
+      <button >
       SEND MESSAGE
       </button>
   </a>
